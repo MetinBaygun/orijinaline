@@ -12,6 +12,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 h1 {
     font-size: 5rem;
     margin: 0;
