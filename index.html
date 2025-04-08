@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orijinaline</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Orijinaline</h1>
+    <p>Orijinaline.com, yanlış yazılmış veya sahte web sitelerinden korunmanıza yardımcı olur. Bir marka adı girerek, ilgili gerçek ve resmi web sitesine kolayca yönlendirilirsiniz. Hızlı, güvenilir ve kullanımı kolay!</p>
+    <form action="/verify" method="get">
+        <input type="text" name="site" placeholder="Marka veya site adı girin">
+        <input type="submit" value="Doğru Siteyi Bul">
+    </form>
+    {% if official_website %}
+        <p>Resmi Web Sitesi: <a href="{{ official_website }}" target="_blank">{{ official_website }}</a></p>
+    {% endif %}
+</body>
+</html>
