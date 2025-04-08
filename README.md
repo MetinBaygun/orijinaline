@@ -9,26 +9,25 @@ Orijinaline.com, kullanıcıların girdiği marka veya site adıyla ilişkili ge
 Günümüzde sahte web siteleri, kullanıcıları yanıltmak için gerçek web sitelerini taklit etmektedir. Orijinaline.com, kullanıcıların yalnızca bir marka ya da site adı girerek, doğru ve resmi siteye yönlendirilmesini sağlar.
 
 ## Özellikler:
-**	•	Kullanıcı, sadece marka veya site adını girer.
+ •	Kullanıcı, sadece marka veya site adını girer.
 	•	Yapay zeka, web araması yaparak en doğru siteyi bulur.
 	•	Kullanıcıya doğru URL’yi gösterir.
-**
+
 ⸻
 
 ## Teknolojiler
-**	•	Frontend: HTML, CSS, JavaScript
+	•	Frontend: HTML, CSS, JavaScript
 	•	Backend: Python (FastAPI, Flask), Node.js (Express)
 	•	Yapay Zeka: Web arama API’si, doğal dil işleme
 	•	Veritabanı: (Opsiyonel, eklenebilir) Firebase, MongoDB
 	•	Diğer: Docker, Heroku (deployment için)
-**
 ⸻
 
 ## Nasıl Çalışır?
-**	1.	Kullanıcı markanın veya site adını yazdığı bir input alanına girer.
+	1.	Kullanıcı markanın veya site adını yazdığı bir input alanına girer.
 	2.	Yapay zeka motoru, verilen input ile bir web araması yapar ve sonucu analiz eder.
 	3.	Kullanıcıya doğru ve resmi siteyi döner.
-**
+
 ⸻
 
 ## Kurulum
